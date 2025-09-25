@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import WeatherCard from "@/components/weather-card";   // ✅ default import
-import WeatherSearch from "@/components/weather-search"; // ✅ default import
+import { WeatherCard } from "@/components/weather-card"
+  // ✅ default import
+import {WeatherSearch }from "@/components/weather-search"
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
